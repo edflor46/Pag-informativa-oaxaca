@@ -1,3 +1,16 @@
+/**Slick js */
+
+$(document).ready(function () {
+    $('.slick').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true,
+        autoplay: true
+    });
+});
+
 
 /*Menu animado*/
 window.onscroll = function () {
@@ -5,7 +18,7 @@ window.onscroll = function () {
     menuAnimado();
 }
 
-if(window.location.href.indexOf('index') > -1) {
+if (window.location.href.indexOf('index') > -1) {
     function menuAnimado() {
         if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
             document.querySelector('.encabezado').style.top = '0';
@@ -66,15 +79,15 @@ for (i = 0; i < mostrar.length; i++) {
 
 
 
-$(document).ready(function () {
-    if (window.location.href.indexOf('index') > -1) {
-        $('.bxslider').bxSlider({
-            mode: 'fade',
-            captions: true,
-            auto: true,
-            stopAutoOnClick: true,
-            infiniteLoop: true,
-            slideWidth: 1350
-        });
-    }
-});
+// $(document).ready(function () {
+//     if (window.location.href.indexOf('index') > -1) {
+//         $('.bxslider').bxSlider({
+//             mode: 'fade',
+//             captions: true,
+//             auto: true,
+//             stopAutoOnClick: true,
+//             infiniteLoop: true,
+//             slideWidth: 1350
+//         });
+//     }
+// });

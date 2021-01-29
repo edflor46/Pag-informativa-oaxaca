@@ -131,25 +131,9 @@ img {
     display: none;
 }
 /*Slider*/
-
-.bx-wrapper, .bx-viewport {
-    height: 400px !important;
-    max-width: 100% !important;
-    width: 100% !important;
-    border: none !important;
-    background: transparent;
-    box-shadow: none;
+.slider img{
+    height: 450px;
 }
-
-.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
-    bottom: 32px !important;
-}
-
-.bx-wrapper img {
-    width: 1300px !important;
-    height: 350px !important;
-}
-
 /*Contenido*/
 
 .contenido-texto h2 {
@@ -573,6 +557,11 @@ justify-content: center;
     }
 }
 
+@media (max-width: 650px){
+    .slider img{
+        height: 300px;
+    }
+}
 @media (max-width: 500px){
     .imagen img{
         height: 200px;
