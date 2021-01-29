@@ -11,13 +11,15 @@ Página web informativa sobre el estado de Oaxaca, esta página es estática ya 
 ![alt text!](img/README/oaxaca-3.png)
 
 ## Galería
+
 Con la librería LightBox de JavaScript se puede construir una galería de manera muy rápida
 ![alt text!](img/README/oaxaca-4.png)
 
 ![alt text](img/README/oaxaca-5.png)
 
 ## Responsivo
-La página es adaptable a cualquier a diferentes tamaños de pantalla 
+
+La página es adaptable a diferentes tamaños de pantalla 
 ![alt text](img/README/oaxaca-6.png)
 
 ![alt text](img/README/oaxaca-7.png)
